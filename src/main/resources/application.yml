@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.17.0.1/springsecurity
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root123456
+
+
+logging:
+  level:
+    org.example.spring_security_learn01: debug
+  pattern:
+    dateformat: HH:mm:ss
